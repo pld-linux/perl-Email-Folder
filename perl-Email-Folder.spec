@@ -6,7 +6,7 @@
 %define	pdir	Email
 %define	pnam	Folder
 Summary:	Email::Folder - read all the messages from a folder as Email::Simple objects
-#Summary(pl):	
+Summary(pl):	Email::Folder - czytanie wiadomo¶ci z folderu jako obiektów Email::Simple
 Name:		perl-Email-Folder
 Version:	0.8
 Release:	1
@@ -26,10 +26,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Email::Folder - read all the messages from a folder as Email::Simple objects.
+Email::Folder - read all the messages from a folder as Email::Simple
+objects.
 
-# %description -l pl
-# TODO
+%description -l pl
+Modu³ Email::Folder czyta wszystkie wiadomo¶ci z folderu jako obiekty
+Email::Simple.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
