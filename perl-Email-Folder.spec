@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Email
-%define	pnam	Folder
+%define		pdir	Email
+%define		pnam	Folder
 Summary:	Email::Folder - read all the messages from a folder as Email::Simple objects
 Summary(pl):	Email::Folder - czytanie wiadomo¶ci z folderu jako obiektów Email::Simple
 Name:		perl-Email-Folder
