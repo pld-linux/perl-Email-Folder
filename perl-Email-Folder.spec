@@ -11,7 +11,7 @@ Name:		perl-Email-Folder
 Version:	0.82
 Release:	1
 # same as perl
-License:	GPL/Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d2b651c5f691d2e80cba866bf9dbbb18
