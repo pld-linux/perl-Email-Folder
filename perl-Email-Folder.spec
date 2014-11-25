@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Email
 %define		pnam	Folder
+%include	/usr/lib/rpm/macros.perl
 Summary:	Email::Folder - read all the messages from a folder as Email::Simple objects
 Summary(pl.UTF-8):	Email::Folder - czytanie wiadomości z folderu jako obiektów Email::Simple
 Name:		perl-Email-Folder
@@ -14,6 +14,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0058c0c066bb383103976f659fa8b301
+URL:		http://search.cpan.org/dist/Email-Folder/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
