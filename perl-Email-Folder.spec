@@ -8,7 +8,7 @@ Summary:	Email::Folder - read all the messages from a folder as Email::Simple ob
 Summary(pl.UTF-8):	Email::Folder - czytanie wiadomości z folderu jako obiektów Email::Simple
 Name:		perl-Email-Folder
 Version:	0.855
-Release:	1
+Release:	2
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
